@@ -1,0 +1,41 @@
+.image-footer {
+  display: none;
+}
+.title-footer {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .container-footer {
+    background-color: #0b0d17;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    
+  }
+  .logo .image-footer {
+    width: 100%;
+    height: 70px;
+  }
+  .image-footer {
+    display: block;
+  }
+  .title-footer {
+    color: white;
+    display: block;
+  }
+  .contact-ourNetwork {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+}
+

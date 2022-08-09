@@ -1,0 +1,16 @@
+.error {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.true {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.msg {
+  background-color: yellow;
+}

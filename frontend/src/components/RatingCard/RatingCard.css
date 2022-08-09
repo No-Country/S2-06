@@ -1,0 +1,45 @@
+body {
+  background-color: #0c1e20;
+}
+
+.container-rating {
+  background-image: url(../../assets/icons/ImagenRatinCArd.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 2em;
+  padding: 1em;
+}
+
+.container-RatingCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.text-RatingCard {
+  background-color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: -2em;
+
+  padding: 0.5em;
+  border-radius: 5px;
+}
+.container-arrowHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-arrow {
+  display: flex;
+  gap: 0.5em;
+}
+.arrow {
+  all: none;
+  border: none;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+}

@@ -1,0 +1,124 @@
+.View{
+    background-color: #0C1E20;
+    color: aliceblue;
+}
+
+
+body{
+    background-color: #0C1E20;
+}
+
+.View--titleSection{
+    margin: 1.5em;
+}
+
+
+
+.View--carouselcontainer{
+    position: relative;
+    left: 0;
+    margin-right: auto;
+    margin-left: -33%;
+    overflow:hidden
+}
+
+.absolute{
+   position: absolute;
+   top: 0px;
+   right: 0;
+   width: 22%;
+   box-shadow: 0px 0px 0px 2px black;
+   height: 100%;
+   background-color: #0C1E20;
+   box-shadow: rgba(214, 214, 214, 0.16) 0px 3px 6px, rgba(131, 131, 131, 0.23) 0px 3px 6px -10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.View--carouselcontainer--column{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+   
+}
+
+.View--buyButton{
+    all: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #0DA0B2;
+    width: 100%;
+    padding: 0.4em;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.View--buyButton:hover{
+    transform: scale(1.05);
+}
+
+.View--pricecontainer{
+    display: flex;
+    gap: 1em;   
+    align-items: center;
+    justify-content: space-around;
+}
+
+.View--discount{
+    background-color: #0DA0B2;
+    padding: 0.5em;
+    padding-block: 0.2em;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.View--initialprice{
+   text-decoration: line-through;
+   color: grey;
+
+}
+
+.View--finalprice{
+   font-size: 1.5em;
+   margin-right: 0.3em;
+}
+
+.dangerouslyFather{
+    margin-inline: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dangerouslyFather img{ 
+    max-width: 80vw;
+    border-radius: 15px;
+    margin: 2em;   
+    width: 80%; 
+}
+
+.dangerouslyFather h1,  .dangerouslyFather h2, .dangerouslyFather h3{
+left: 0;
+margin-right: auto ;
+text-align: left;
+}
+
+.dangerouslyFather ul{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:762px){
+    .dangerouslyFather {
+        margin-bottom: 2em;
+    }
+
+}

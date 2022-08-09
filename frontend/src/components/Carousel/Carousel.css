@@ -1,0 +1,26 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+.carousel img, .carousel video{
+    border-radius: 8px;
+    width: 45%;
+    margin-left:28%;
+    position: relative!important;  
+    max-height: 60vh;
+    margin-block:0.5em;
+    box-shadow: rgba(77, 77, 77, 0.25) 0px 14px 28px, rgba(222, 222, 222, 0.22) 0px 10px 10px;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active{
+    background-color: #0DA0B2;
+}
+
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item{
+    color: #0DA0B2;
+
+}
+
+.alice-carousel__next-btn-item, .alice-carousel__prev-btn-item{
+    font-size: 2em;
+    color: #0DA0B2;
+}
+

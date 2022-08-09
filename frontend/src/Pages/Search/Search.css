@@ -1,0 +1,215 @@
+.noresults{
+    color: white;
+}
+
+.Search--listButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin: 2em;
+}
+
+.Search__arrows  {
+    height: 2em;
+    cursor: pointer;
+    
+}
+.leftArrow {
+    transform: rotate(-180deg);
+    transition: all .3s ease;
+}
+
+.rightArrow {
+    transform: rotate(0deg);
+    transition: all .3s ease;
+}
+
+.leftArrow:hover {
+    transform: scale(1.2) rotate(-180deg);;
+    
+}
+
+.rightArrow:hover {
+    transform: scale(1.2) ;
+}
+
+.landing--listButtons__numbers {
+    all: none;
+    background: beige;
+    border-radius: 5px;
+    height: 100%;
+    text-align: center;
+    border-color: #0DA0B2;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    transition: all .3s ease;
+    border-style: solid;
+}
+
+.landing--listButtons__numbers__selected{
+    background: #0DA0B2;
+    color: white;
+    border-color: white;
+    
+}
+
+.landing--listButtons__numbers:hover {
+transform: scale(1.2);
+background-color: #0DA0B2;
+color: white;
+}
+.landing--listButtons__numbers__selected:hover{
+    background: #0DA0B2;
+    color: white;
+    border-color: white;
+    transform: none;
+    cursor: inherit ;
+    
+}
+
+.loadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -4px 0 0 -4px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .Search--sortByContainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 2em;
+    
+  } 
+
+  .Search--sortByContainer select{
+    all: none;
+    border-radius:10px ;
+    padding: 1em;
+    overflow: hidden;
+    font-family: "Roboto",sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 10em;
+    display: inline-block;
+    background-image:
+      linear-gradient(45deg, transparent 50%, white 50%),
+      linear-gradient(135deg, white 50%, transparent 50%),
+      linear-gradient(to right, #0DA0B2, #0DA0B2);
+    background-position:
+      calc(100% - 20px) calc(1em + 6px),
+      calc(100% - 15px) calc(1em + 6px),
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      3em 4em;
+    background-repeat: no-repeat;
+    margin-right: 1em;
+    cursor: pointer;
+  }
+
+  .sortArrows {
+    stroke: white;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+  }
+
+  .sortArrowsDown{
+    transform: rotate(180deg);
+  }
+
+  .sortArrowsUp:hover{
+    transform: scale(1.1);
+  }
+  .sortArrowsDown:hover{
+    transform: rotate(180deg) scale(1.1);
+  }

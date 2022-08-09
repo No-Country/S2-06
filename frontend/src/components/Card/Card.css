@@ -1,0 +1,87 @@
+.conteiner-Card {
+  border: solid black 2px;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 3px 5px #888888;
+  width: 250px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 400ms ease-in-out;
+
+}
+
+.conteiner-Card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.text-card {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2px;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0.5em;
+}
+.details {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  text-align: center;
+}
+.price {
+  color: #888888;
+  border-radius: 5px;
+  padding: 0.5em;
+  text-decoration: line-through;
+}
+.discount {
+  background-color: #0da0b2;
+
+  border-radius: 5px;
+  padding: 0.5em;
+}
+.percentage {
+  background-color: #32cd32;
+
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.card-img {
+  max-width: 100%;
+}
+.container-install {
+  display: flex;
+  gap: 0.5em;
+}
+.install {
+  color: white;
+  margin: 0px;
+}
+.img-install {
+  transform: scale(0.8);
+}
+
+
+.isOwnedButton{
+  all: none;
+  border: none;
+  cursor: pointer;
+  background-color: #0DA0B2;
+  color: black;
+  padding: 0.5em;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+  margin-top: 1em;
+  
+}
+
+.isOwnedButton{
+  transform: scale(1.1);
+}
+

@@ -1,0 +1,40 @@
+.container-confirm {
+  background-image: url(../../assets/fullHDv2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: auto;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 25px;
+  padding: 2em;
+  width: 100vw;
+}
+.title-confirm {
+  background-color: green;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.link-confirmed {
+  text-decoration: none;
+  color: #000000;
+}
+.redirect-confirm {
+  background-color: #d9d9d9;
+  text-transform: uppercase;
+
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .container-confirm {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-confirm {
+    width: 35vw;
+  }
+}
